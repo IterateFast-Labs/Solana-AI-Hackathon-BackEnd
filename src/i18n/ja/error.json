@@ -1,0 +1,28 @@
+{
+  "INTERNAL_SERVER_ERROR": "内部サーバーエラーが発生しました",
+
+  "NO_AUTH_TOKEN": "認証トークンが提供されていません",
+  "INVALID_AUTH_TOKEN": "無効な認証トークン",
+
+  "INVALID_SIGNATURE": "無効な署名",
+
+  "USER_NOT_FOUND": "ユーザーが見つかりません",
+  "USER_ALREADY_EXISTS": "ユーザーはすでに存在します",
+  "USER_WALLET_NOT_FOUND": "ユーザーウォレットが見つかりません",
+
+  "USER_PROFILE_NOT_FOUND": "ユーザープロフィールが見つかりません",
+
+  "INVALID_INTEREST": "無効な興味",
+  "DUPLICATED_NICKNAME": "重複したニックネーム",
+
+  "QUEST_NOT_FOUND": "クエストが見つかりません",
+  "QUEST_NOT_HAS_TASK": "クエストにタスクがありません",
+  "QUEST_ALREADY_FINISHED": "クエストはすでに完了しています",
+  "QUEST_NOT_FINISHED_REQUIRED_TASK": "クエストは完了するために必要なタスクが完了していません",
+
+  "TASK_NOT_FOUND": "タスクが見つかりません",
+  "TASK_NOT_FINISHED": "タスクは完了していません",
+  "TASK_ALREADY_FINISHED": "タスクはすでに完了しています",
+
+  "DATABASE_ERROR": "データベースエラーが発生しました"
+}

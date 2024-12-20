@@ -1,0 +1,6 @@
+{
+  "IS_STRING": "{property} must be a string",
+  "IS_STRING_ARRAY": "{property} must be an array of strings",
+  "IS_NOT_EMPTY": "{property} must not be empty",
+  "IS_ETH_WALLET_ADDRESS": "{property} must be a valid Ethereum wallet address"
+}

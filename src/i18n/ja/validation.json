@@ -1,0 +1,6 @@
+{
+  "IS_STRING": "{property} は文字列でなければなりません",
+  "IS_STRING_ARRAY": "{property} は文字列の配列でなければなりません",
+  "IS_NOT_EMPTY": "{property} は空であってはいけません",
+  "IS_ETH_WALLET_ADDRESS": "{property} は有効なEthereumウォレットアドレスでなければなりません"
+}

@@ -1,0 +1,149 @@
+// This is your Prisma schema file with table names only.
+// All sensitive details and schema definitions have been replaced with comments.
+// If you need the full schema, please contact the repository maintainer.
+
+// Learn more about Prisma schema files here: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "./db"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Table: user
+// This table is used to manage user-related data.
+// Actual schema definitions have been removed for security reasons.
+model user {
+  // Placeholder for user model fields.
+}
+
+// Table: inventory
+// Manages user inventory data.
+model inventory {
+  // Placeholder for inventory model fields.
+}
+
+// Table: userReference
+// Handles user referral relationships.
+model userReference {
+  // Placeholder for userReference model fields.
+}
+
+// Table: quest
+// Contains information about quests.
+model quest {
+  // Placeholder for quest model fields.
+}
+
+// Table: task
+// Stores tasks associated with quests.
+model task {
+  // Placeholder for task model fields.
+}
+
+// Table: userQuestStatus
+// Tracks the status of users in quests.
+model userQuestStatus {
+  // Placeholder for userQuestStatus model fields.
+}
+
+// Table: userTaskStatus
+// Tracks the status of users in tasks.
+model userTaskStatus {
+  // Placeholder for userTaskStatus model fields.
+}
+
+// Table: userTaskHistory
+// Keeps a history of tasks completed by users.
+model userTaskHistory {
+  // Placeholder for userTaskHistory model fields.
+}
+
+// Table: userInGameTaskHistory
+// Records in-game task activities of users.
+model userInGameTaskHistory {
+  // Placeholder for userInGameTaskHistory model fields.
+}
+
+// Table: checkInEvent
+// Defines events for user check-ins.
+model checkInEvent {
+  // Placeholder for checkInEvent model fields.
+}
+
+// Table: userCheckInHistory
+// Logs user check-in activities.
+model userCheckInHistory {
+  // Placeholder for userCheckInHistory model fields.
+}
+
+// Table: dataSetTrack
+// Tracks datasets for labeling.
+model dataSetTrack {
+  // Placeholder for dataSetTrack model fields.
+}
+
+// Table: dataSetOption
+// Options available for datasets.
+model dataSetOption {
+  // Placeholder for dataSetOption model fields.
+}
+
+// Table: dataLabelingResult
+// Stores the results of data labeling.
+model dataLabelingResult {
+  // Placeholder for dataLabelingResult model fields.
+}
+
+// Table: userDataLabelingHistory
+// Logs the history of user data labeling.
+model userDataLabelingHistory {
+  // Placeholder for userDataLabelingHistory model fields.
+}
+
+// Table: labelingValidation
+// Validates data labeling by users.
+model labelingValidation {
+  // Placeholder for labelingValidation model fields.
+}
+
+// Table: userValidationHistory
+// Tracks user validation activities.
+model userValidationHistory {
+  // Placeholder for userValidationHistory model fields.
+}
+
+// Table: validatorRestriction
+// Restricts validators based on history.
+model validatorRestriction {
+  // Placeholder for validatorRestriction model fields.
+}
+
+// Table: dataSet
+// Contains the dataset for user labeling tasks.
+model dataSet {
+  // Placeholder for dataSet model fields.
+}
+
+// Table: clickerStage
+// Defines stages in clicker games.
+model clickerStage {
+  // Placeholder for clickerStage model fields.
+}
+
+// Table: userClickerHistory
+// Logs user activity in clicker games.
+model userClickerHistory {
+  // Placeholder for userClickerHistory model fields.
+}
+
+// ENUMS
+// TaskType: Defines the type of tasks (e.g., REQUIRED, OPTIONAL).
+// TaskContentType: Specifies the content type of tasks (e.g., ONCHAIN, API).
+// DatasetType: Indicates the type of dataset (e.g., ASCII, EMOJI).
+// InputOptionType: Defines input options for datasets.
+// dataSetStatus: Represents the status of a dataset (e.g., DRAFT, PUBLIC).
